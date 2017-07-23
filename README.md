@@ -26,6 +26,7 @@ function user(state, action) {
 }
 ```
 
+Just mutate arrays elements in your reducers
 ```js
 function task(state, action) {
    if (action.type === 'UPDATE_CONTRIBUTOR_NAME') {
